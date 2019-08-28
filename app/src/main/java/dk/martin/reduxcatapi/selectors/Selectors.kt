@@ -7,5 +7,9 @@ class Selectors {
         fun getFavoriteCount(state: AppState): Int {
             return state.favorites.count()
         }
+
+        fun getLikesCount(state: AppState): Int {
+            return state.likesCount
+        }
     }
 }
