@@ -61,6 +61,18 @@ dependencies {
 
     // Anko
     implementation "org.jetbrains.anko:anko:$anko_version"
+    implementation "org.jetbrains.anko:anko-constraint-layout:$anko_version"
+
+    // Contour
+    implementation project(":contour")
+
+    implementation 'com.specyci:residemenu:1.6'
+
+    //CONDUCTOR
+    implementation "com.bluelinelabs:conductor:2.1.5"
+    implementation "com.bluelinelabs:conductor-support:2.1.5"
+    implementation "com.bluelinelabs:conductor-rxlifecycle2:2.1.5"
+
 }
 
 ktlint {
